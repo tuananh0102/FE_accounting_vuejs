@@ -1,0 +1,181 @@
+.payment-detail-container {
+  position: fixed;
+  background: #fff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.payment-detail-container .container__top {
+  max-height: calc(100vh - 120px);
+  overflow: auto;
+}
+
+.container__bottom .list-selection {
+  top: unset;
+  bottom: calc(100%);
+  left: -10px;
+}
+
+.container__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: static;
+  top: 0;
+  left: 0;
+  background-color: #e4e9e7;
+  z-index: 10;
+}
+
+.container__header .wrapper-title {
+  display: flex;
+  align-items: center;
+}
+
+.container__header .wrapper-title .wrapper-icon {
+  padding: 12px;
+}
+
+.container__header .wrapper-title .header__title {
+  font-weight: 500;
+  font-size: 24px;
+}
+.container__header .header__right .question {
+  font-size: 13px;
+}
+
+/* .container__mid {
+  max-height: calc(100vh - 50px);
+  overflow-y: auto;
+} */
+
+/* .container__bottom {
+  max-height: calc(50vh - 70px);
+  overflow-y: auto;
+} */
+
+.container__bottom table thead tr th:first-child {
+  position: static;
+}
+
+.container__bottom thead tr th {
+  position: static;
+}
+
+.container__bottom table thead tr th:last-child {
+  position: static;
+}
+
+.no-margin {
+  padding: 0;
+}
+.container__top .wrapper-icon {
+  /* width: 24px; */
+  height: 27px;
+  padding: 0 8px;
+  /* border-left: 1px solid #babec5; */
+  /* border-left: 1px solid #ccc; */
+}
+
+.container__top .wrapper-icon:hover {
+  background-color: #ccc;
+}
+
+.payment-detail-container .header__left .combobox {
+  width: 339px;
+  cursor: not-allowed;
+}
+
+/* .payment-detail-container .combobox .wrapper-input {
+  border: 1px solid #e0e0e0;
+} */
+
+.payment-detail-container .header__left .combobox .wrapper-input:hover {
+  cursor: not-allowed;
+}
+
+.payment-detail-container .header__left .combobox .wrapper-input .base-input:hover {
+  cursor: not-allowed;
+}
+.payment-detail-container .header__left .combobox .wrapper-input .wrapper-icon {
+  cursor: not-allowed;
+}
+
+.payment-detail-container .container-info {
+  padding: 8px 20px 12px;
+  display: flex;
+  width: 100%;
+  background-color: #e4e9e7;
+}
+
+.payment-detail-container .small .wrapper-input {
+  width: 35%;
+}
+
+.payment-detail-container .basic-information {
+  display: flex;
+}
+
+.right-separate {
+  margin-right: 20px;
+}
+
+.left-separate .popup__field {
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+}
+
+.summary-info h1 {
+  font-size: 24px;
+}
+
+.summary-info {
+  text-align: right;
+}
+
+.container__bottom .tab-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.container__bottom .tab-detail .combobox {
+  width: 100px;
+  margin-left: 4px;
+}
+
+.container__bottom .bank-container {
+  padding: 0 20px;
+}
+
+.container__bottom .sum {
+  border-bottom: 0;
+}
+
+.container__bottom .bank-container .sum td {
+  text-align: right;
+  border: none;
+  background-color: #e8eaef;
+  text-align: right;
+}
+
+.payment-detail-container .popup__footer {
+  position: fixed;
+  bottom: -2px;
+  width: 100%;
+  margin: 0;
+  padding: 12px 20px;
+}
+
+.payment-detail-container .footer--right {
+  display: flex;
+  align-items: center;
+}
+
+.payment-detail-container .toast-msg {
+  top: 0;
+}
+.payment-detail-container .sub-btn.disable {
+  background-color: #fff;
+}

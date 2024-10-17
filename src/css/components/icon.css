@@ -1,0 +1,412 @@
+.sidebar__icon-home {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -33px -1630px;
+  width: 18px;
+  height: 20px;
+}
+
+.sidebar__icon-money {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -78px -1631px;
+  width: 14px;
+  height: 18px;
+}
+
+.sidebar__icon-bank {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -121px -1633px;
+  width: 14px;
+  height: 18px;
+}
+
+.sidebar__icon-bag {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -165px -1632px;
+  width: 16px;
+  height: 18px;
+}
+
+.sidebar__icon-shop {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -206px -1631px;
+  width: 20px;
+  height: 18px;
+}
+
+.sidebar__icon-note {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -254px -1632px;
+  width: 14px;
+  height: 17px;
+}
+
+.sidebar__icon-container {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -294px -1632px;
+  width: 18px;
+  height: 17px;
+}
+
+.sidebar__icon-tool {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -339px -1633px;
+  width: 18px;
+  height: 17px;
+}
+
+.sidebar__icon-asset {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -382px -1632px;
+  width: 18px;
+  height: 17px;
+}
+.sidebar__icon-tax {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -427px -1634px;
+  width: 16px;
+  height: 16px;
+}
+.sidebar__icon-price {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -471px -1633px;
+  width: 17px;
+  height: 17px;
+}
+.sidebar__icon-general {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -514px -1632px;
+  width: 18px;
+  height: 17px;
+}
+.sidebar__icon-budget {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -207px -1667px;
+  width: 17px;
+  height: 14px;
+}
+
+.icon-bars {
+  width: 24px;
+  height: 24px;
+  filter: invert(37%) sepia(29%) saturate(0%) hue-rotate(219deg) brightness(101%) contrast(96%);
+}
+
+/* .icon-reload {
+  width: 24px;
+  height: 24px;
+  filter: invert(42%) sepia(0%) saturate(913%) hue-rotate(249deg) brightness(92%) contrast(86%);
+} */
+
+.avatar {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -352px -894px;
+  width: 32px;
+  height: 32px;
+}
+
+.icon-warning {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -598px -463px;
+  width: 36px;
+  height: 37px;
+}
+
+.icon-question__blue {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -832px -462px;
+  width: 36px;
+  height: 36px;
+}
+
+.icon-success {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -1602px -258px;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-fail {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -538px -146px;
+  width: 20px;
+  height: 20px;
+}
+
+.combobox__icon-down {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -1756px -317px;
+  width: 8px;
+  height: 5px;
+}
+
+.icon-question {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -89px -145px;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+}
+
+.icon-setting--black {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -675px -30px;
+  width: 24px;
+  height: 24px;
+}
+
+.icon-setting--green {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -650px -201px;
+  width: 20px;
+  height: 22px;
+}
+
+.icon-customer--green {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -876px -202px;
+  width: 16px;
+  height: 20px;
+}
+
+.icon-inventory--green {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -1378px -257px;
+  width: 21px;
+  height: 22px;
+}
+
+.icon-employee--green {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -986px -202px;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-provider--green {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -930px -202px;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-download {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -2144px -200px;
+  width: 25px;
+  height: 24px;
+}
+
+.icon-arrow__right--blue {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -228px -362px;
+  width: 8px;
+  height: 12px;
+}
+
+.icon-options {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -1711px -33px;
+  width: 17px;
+  height: 14px;
+}
+
+.icon-message {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -899px -30px;
+  width: 24px;
+  height: 25px;
+}
+
+.icon-knowledge {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -638px -1663px;
+  width: 18px;
+  height: 18px;
+}
+
+.icon-setting--small {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -512px -311px;
+  width: 16px;
+  height: 17px;
+}
+
+.icon-arrow-down--filled {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -371px -364px;
+  width: 10px;
+  height: 8px;
+}
+
+.icon-payment {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -272px -1508px;
+  width: 49px;
+  height: 45px;
+}
+
+.icon-receive {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -352px -1508px;
+  width: 44px;
+  height: 44px;
+}
+
+.icon-inventory {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -432px -1508px;
+  width: 44px;
+  height: 44px;
+}
+
+.icon-square-minus {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -560px -312px;
+  width: 15px;
+  height: 15px;
+}
+
+.icon-square-plus {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -608px -312px;
+  width: 15px;
+  height: 15px;
+}
+
+.icon-arrowdown--solid {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -259px -147px;
+  width: 18px;
+  height: 18px;
+}
+
+.sicon-arrow-right--filledprite {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -324px -363px;
+  width: 8px;
+  height: 10px;
+}
+
+.icon-question:focus {
+  outline: 2px solid #bdbdbd;
+}
+
+.icon-warning-red {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -752px -462px;
+  width: 36px;
+  height: 36px;
+}
+
+.icon-trash {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -464px -313px;
+  width: 15px;
+  height: 15px;
+}
+
+.icon-filter--white {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -1817px -208px;
+  width: 12px;
+  height: 12px;
+}
+
+.icon-close {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -147px -147px;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  outline: none;
+}
+
+.icon-setting {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -90px -201px;
+  width: 20px;
+  height: 22px;
+}
+
+.icon-reload {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -424px -201px;
+  width: 22px;
+  height: 23px;
+}
+
+.icon-info {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -672px -462px;
+  width: 36px;
+  height: 36px;
+}
+
+.icon-excel {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -705px -202px;
+  width: 23px;
+  height: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.icon-bell {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -788px -30px;
+  width: 22px;
+  height: 25px;
+}
+
+.icon-calendar {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -128px -312px;
+  width: 16px;
+  height: 16px;
+}
+
+.dropdown-blue-icon {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -900px -365px;
+  width: 8px;
+  height: 5px;
+  display: block;
+  /* position: relative; */
+  cursor: pointer;
+}
+
+.icon-dropdown__black {
+  background: url("/src/assets/icon/Sprites.64af8f61.svg") no-repeat -1756px -317px;
+  width: 8px;
+  height: 5px;
+}
+
+.icon-close--small {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -83px -316px;
+  width: 9px;
+  height: 8px;
+}
+
+.icon-plus--small {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -34px -314px;
+  width: 12px;
+  height: 12px;
+}
+
+.icon-clock {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -648px -145px;
+  width: 24px;
+  height: 23px;
+}
+
+.icon-application {
+  width: 24px;
+  height: 24px;
+  filter: invert(95%) sepia(95%) saturate(3%) hue-rotate(180deg) brightness(105%) contrast(100%);
+}
+
+.header__container .icon-down {
+  filter: invert(37%) sepia(29%) saturate(0%) hue-rotate(219deg) brightness(101%) contrast(96%);
+}
+
+/* .icon-bell {
+  width: 24px;
+  height: 24px;
+  filter: invert(47%) sepia(0%) saturate(0%) hue-rotate(247deg) brightness(91%) contrast(83%);
+} */
+
+.icon-plus {
+  filter: invert(67%) sepia(10%) saturate(6055%) hue-rotate(64deg) brightness(99%) contrast(62%);
+  margin: 0 8px;
+}
+
+.icon-dropdown-white {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -852px -365px;
+  width: 8px;
+  height: 5px;
+}
+
+.icon-setting-bold {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -32px -144px;
+  width: 24px;
+  height: 24px;
+}
+
+.icon-instruct {
+  background: url("/src/assets/icon/Sprites.svg") no-repeat -983px -145px;
+  width: 24px;
+  height: 22px;
+}
+
+.combobox__search-icon,
+.combobox__checked-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.combobox__checked-icon {
+  filter: invert(54%) sepia(81%) saturate(376%) hue-rotate(64deg) brightness(95%) contrast(95%);
+}
+
+.base-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon--left {
+  transform: rotateZ(90deg);
+}
+
+.icon--right {
+  transform: rotateZ(-90deg);
+}

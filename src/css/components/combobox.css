@@ -1,0 +1,234 @@
+.combobox-area {
+  background-color: #e4dfdf;
+
+  padding: 30px;
+}
+
+.combobox {
+  /* width: 250px; */
+  /* height: 36px; */
+  position: relative;
+}
+
+.combobox .wrapper-input:focus-within {
+  border: 1px solid #50b83c;
+}
+
+/* .wrapper-selected-item {
+  height: 24px;
+} */
+
+.list-selection {
+  background-color: #fff;
+  margin-top: -8px;
+
+  border-radius: 4px;
+  position: absolute;
+  top: 75px;
+  border: 1px solid #babec5;
+  z-index: 16;
+  top: calc(100% + 12px);
+
+  /* max-height: 200px; */
+}
+
+.mul-combobox .wrapper-combobox-input:focus-within {
+  border: 1px solid #50b83c;
+}
+
+.mul-combobox .wrapper-combobox-input .wrapper-input:focus-within {
+  border: none;
+}
+
+.mul-combobox .wrapper-combobox-input .wrapper-input:hover {
+  background-color: transparent;
+}
+
+.mul-combobox .wrapper-combobox-input .wrapper-input .base-input:hover {
+  background-color: transparent;
+}
+
+.mul-combobox .wrapper-combobox-input {
+  display: flex;
+  /* height: 28px; */
+  border: 1px solid #e0e0e0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.provider__container .popup__mid .wrapper-input {
+  margin: 0;
+}
+
+.provider__container .label-input {
+  padding-bottom: 2px;
+}
+
+.provider__container .wrapper-textarea {
+  margin: 0;
+}
+
+.mul-combobox .wrapper-input {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height: fit-content;
+  margin: 0;
+  width: 100%;
+  border: none;
+  height: 100%;
+}
+
+.mul-combobox .wrapper-input .base-input {
+  flex-grow: 1;
+  width: 30px;
+  padding-left: 0 0 0 12px;
+  margin: 0;
+}
+
+.wrapper__display {
+  display: flex;
+  align-items: center;
+
+  width: 90%;
+  margin-left: 10px;
+}
+
+.list-selection .table__values {
+  overflow-y: auto;
+  max-height: 120px;
+}
+
+.list-selection .table__title {
+  display: flex;
+  height: 32px;
+  align-items: center;
+  background-color: #e0e0e0;
+  padding: 0 10px;
+  font-weight: 500;
+}
+
+.table__values .table__value {
+  display: flex;
+  height: 32px;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.table__values .table__value:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  color: #50b83c;
+}
+
+.mul-combobox .wrapper-selected-item {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  margin-right: 5px;
+  height: 22px;
+  margin: 2px;
+}
+
+.mul-combobox .wrapper-input .selected-item {
+  padding: 2px 4px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.provider__container .popup__mid .popup__field .board-value {
+  max-height: 114px;
+  top: 43px;
+}
+
+.contact-container .popup__field .board-value {
+  max-height: 114px;
+  top: calc(100%);
+}
+
+.options__information .wrapper-input {
+  margin: 4px 0;
+}
+
+.popup__field .board-value {
+  background-color: #fff;
+
+  width: 100%;
+  /* display: flex;
+  flex-direction: column; */
+  overflow-y: clip;
+  border-radius: 4px;
+  position: absolute;
+  top: calc(100% +12px);
+  border: 1px solid #babec5;
+  z-index: 16;
+  overflow-y: auto;
+  max-height: 200px;
+  /* display: none; */
+}
+
+.table__bottom-right .board-value {
+  background-color: #fff;
+  margin-top: -8px;
+  width: 100%;
+  overflow-y: clip;
+  border-radius: 4px;
+  position: absolute;
+  bottom: calc(100% + 2px);
+  border: 1px solid #babec5;
+  z-index: 16;
+  overflow-y: auto;
+  max-height: 200px;
+}
+
+.board-value__title,
+.board-value__value {
+  height: 32px;
+  padding-left: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-radius: 4px; */
+  margin: 1px 0;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.board-value__value {
+  position: relative;
+}
+
+.mulitple-col.board-value__value {
+  /* justify-content: flex-start; */
+
+  padding: 0;
+}
+
+.board-value__title {
+  color: #50b83c;
+}
+
+.board-value__value:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  color: #50b83c;
+}
+
+.board-value .selected-value {
+  background-color: #089740;
+  color: #fff;
+}
+
+.table-selection__title {
+  display: inline-flex;
+  align-items: center;
+  height: 36px;
+}
+.row-header {
+  position: sticky;
+  top: 0;
+  background-color: #e0e0e0;
+  z-index: 1;
+}

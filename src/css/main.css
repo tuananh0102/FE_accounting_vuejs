@@ -1,0 +1,316 @@
+@import url("./components/button.css");
+@import url("./components/input.css");
+@import url("./components/dialog.css");
+@import url("./components/popup.css");
+@import url("./components/toast_msg.css");
+@import url("./components/table.css");
+@import url("./components/combobox.css");
+@import url("./components/context_menu.css");
+@import url("./components/warning_input.css");
+@import url("./components/icon.css");
+@import url("../pages/money/money_page.css");
+@import url("../pages/money/PaymentDetail.css");
+@import url("./layout.css");
+
+@font-face {
+  font-family: Roboto;
+  src: url("/src/assets/font/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("/src/assets/font/Roboto-Italic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("/src/assets/font/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("/src/assets/font/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+
+:root {
+  --tab__item-active-text-color: #2ca01c;
+}
+
+* {
+  font-size: 14px;
+  font-family: Roboto;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ml-8 {
+  margin-left: 8px;
+}
+
+.ml-4 {
+  margin-left: 4px;
+}
+
+.ml-6 {
+  margin-left: 6px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.mlr-12 {
+  margin: 0 12px;
+}
+
+.plr-8 {
+  padding: 0 8px;
+}
+
+.plr-12 {
+  padding: 0 12px;
+}
+
+.pl-12 {
+  padding-left: 12px;
+}
+
+.pr-12 {
+  padding-right: 12px;
+}
+
+.pr-8 {
+  padding-right: 8px;
+}
+
+.pl-16 {
+  padding-left: 16px;
+}
+
+.mlr-6 {
+  margin: 0 6px;
+}
+
+.mr-6 {
+  margin-right: 6px;
+}
+
+.mt-4 {
+  margin-top: 4px;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+.bold {
+  font-weight: 700;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.size-24 {
+  width: 24px;
+  height: 24px;
+}
+
+.success {
+  color: #50b83c;
+}
+
+.fail {
+  color: #eb3333;
+}
+
+.warning {
+  color: #f49342;
+}
+
+.question {
+  color: #0075c0;
+}
+
+.color-bold-red {
+  color: #ed1c24;
+}
+
+.info {
+  filter: invert(51%) sepia(33%) saturate(5691%) hue-rotate(162deg) brightness(96%) contrast(101%);
+}
+
+.fail {
+  filter: invert(29%) sepia(34%) saturate(6560%) hue-rotate(354deg) brightness(90%) contrast(93%);
+}
+
+.border-left--orange {
+  border-left: 5px solid #ff7f2c;
+}
+.border-left--gray {
+  border-left: 5px solid #b8bcc3;
+}
+.border-left--green {
+  border-left: 5px solid #74cb2f;
+}
+
+.border-right-gray {
+  border-right: 6px solid #f5f5f5;
+}
+
+.wrapper-icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.display-flex {
+  display: flex;
+  align-items: center;
+}
+
+.focus-green:focus-within {
+  border: 1px solid #50b83c;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.width-100 {
+  min-width: 100px;
+  max-width: 122px;
+}
+
+.width-150 {
+  min-width: 150px;
+  max-width: 172px;
+}
+
+.width-200 {
+  min-width: 200px;
+  max-width: 222px;
+}
+
+.width-250 {
+  min-width: 250px;
+  max-width: 272px;
+}
+
+.width-300 {
+  min-width: 300px;
+  max-width: 322px;
+}
+
+.w-350 {
+  min-width: 350px;
+  max-width: 372px;
+}
+
+.w-6\/10 {
+  width: 60%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-1\/4 {
+  width: 25%;
+}
+
+.w-1\/5 {
+  width: 20%;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
+.text-overflow__ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  white-space: nowrap;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.flex-1dot5 {
+  flex: 1.5;
+}
+
+.width-25per {
+  width: 25%;
+}
+
+.br-4 {
+  border-radius: 4px;
+}
+
+.border-black {
+  border: 2px solid #000;
+}
+
+.border-default {
+  border: 1px solid #ccc;
+}
+
+.round-btn {
+  border-radius: 30px;
+}
+
+.border-red--important {
+  border: 1px solid #b80000 !important;
+}
+
+.text-center {
+  text-align: center;
+  padding: 0;
+}
+
+.text-align-center {
+  text-align: center;
+  padding: 0;
+}
+
+input[type="radio"] {
+  accent-color: #2ca01c;
+}
+
+input[type="checkbox"] {
+  accent-color: #2ca01c;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:focus {
+  outline: 2px solid #bdbdbd;
+}
+
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.grid-3col {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% auto;
+}

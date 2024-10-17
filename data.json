@@ -1,0 +1,15 @@
+{
+  "BankAccounts": [
+    {
+      "ProviderCode": "NCC-3423",
+      "ListBankAccount": [
+        {
+          "AccountNumber": "1311213",
+          "AccountName": "bidv",
+          "AccountBranch": "Cầu Giấy",
+          "AccountCity": "Hà Nội"
+        }
+      ]
+    }
+  ]
+}

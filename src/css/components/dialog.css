@@ -1,0 +1,93 @@
+.dialog-area {
+  margin-top: 30px;
+  background-color: #f7f7f7;
+  padding: 30px;
+}
+
+.dialog {
+  width: 420px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.dialog__container {
+  padding: 24px;
+}
+
+.dialog__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dialog__header {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.dialog__icon {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.dialog__icon .close-btn {
+  cursor: pointer;
+}
+
+.dialog__mid {
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+}
+
+.dialog__desc {
+  line-height: 18px;
+}
+
+.dialog__bottom {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: row-reverse; */
+}
+
+/* staff dialog */
+.container .dialog {
+  position: fixed;
+  margin: auto;
+  height: fit-content;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 20;
+  /* display: none; */
+}
+
+.container .dialog__container {
+  padding: 0;
+}
+
+.container .dialog__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 24px 0 24px;
+}
+
+.container .dialog__mid {
+  display: flex;
+  padding: 24px;
+}
+
+.container .dialog__desc {
+  padding-left: 20px;
+  max-height: 90px;
+  overflow-y: auto;
+}
+
+.container .dialog__bottom {
+  padding: 12px 0;
+  margin: 0 12px;
+  border-top: 1px solid #000;
+}

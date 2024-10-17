@@ -1,0 +1,32 @@
+.context-menu {
+  list-style: none;
+  min-width: 116px;
+  background-color: #fff;
+  border: 1px solid #babec5;
+  position: absolute;
+  /* top: 100px; */
+  right: 44px;
+  z-index: 10;
+  /* display: none; */
+}
+
+.money-list-context .context-menu {
+  right: 64px;
+}
+
+.context-menu__option {
+  padding: 6px;
+  border-radius: 4px;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.context-menu__option:hover {
+  background-color: #f2f2f2;
+  color: #39ac66;
+}
+
+.context-menu__option:active {
+  /* color: #39ac66; */
+  background-color: #eeeeee;
+}
