@@ -1,4 +1,3 @@
-# vue_web04
 
 ## Project setup
 ```
